@@ -1,9 +1,6 @@
-version: "3.9"
+version: "3.8"
 services:
-   bot:
-     build:
-       context: ./Dockerfile
-     entrypoint: ["python3", 'app.py']
-     ports:
-       - "8443:8443"
-     command: uvicorn run_bot:app --reload --port 8443 --host 0.0.0.0
+  bot:
+    build: .
+    ports:
+      - "8443:8443"
