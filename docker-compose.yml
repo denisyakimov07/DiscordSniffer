@@ -6,3 +6,4 @@ services:
       - "8443:8443"
     environment:
       - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN}
+      - DISCORD_BOT=${DISCORD_BOT_TOKEN}
