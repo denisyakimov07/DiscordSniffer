@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: denisyakimov/discord_sniffer_bot:latest
+          tags: denisyakimov/discord_sniffer_bot:0.1

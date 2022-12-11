@@ -12,7 +12,6 @@ class _Environment:
     DISCORD_CLIENT_SECRET: str
     DISCORD_PUBLIC_KEY: str
     DISCORD_BASE_URL: str
-    APEX_KEY: str
     API_CLIENT_ID: str
     API_CLIENT_SECRET: str
     PORT: int
@@ -27,8 +26,6 @@ class _Environment:
         self.DISCORD_CLIENT_SECRET = os.getenv('DISCORD_CLIENT_SECRET')
         self.DISCORD_PUBLIC_KEY = os.getenv('DISCORD_PUBLIC_KEY')
         self.DISCORD_BASE_URL = os.getenv('DISCORD_BASE_URL')
-
-        self.APEX_KEY = os.getenv('APEX_KEY')
 
         self.API_BASE_URL = os.getenv('API_BASE_URL')
         self.API_CLIENT_ID = os.getenv('API_CLIENT_ID')
