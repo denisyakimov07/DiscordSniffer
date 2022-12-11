@@ -6,7 +6,7 @@ async def on_message(message):
         return
 
     if message.content.startswith('$hello'):
-        await message.channel.send('Hello2!')
+        await message.channel.send('Hello3!')
         print(message.content)
 
 
