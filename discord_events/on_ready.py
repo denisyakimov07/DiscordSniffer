@@ -1,4 +1,5 @@
-from app import client
+from discord_client import client
+
 
 @client.event
 async def on_ready():
